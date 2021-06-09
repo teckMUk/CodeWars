@@ -19,7 +19,12 @@ D          500
 M          1,000
 Remember that there can't be more than 3 identical symbols in a row.
 ````
+<h5>Instruction to run</h5>
 
+{
+  python RomanNumbers.py <Postive integer>
+  >> return Roman Numeric 
+}
 refernce to above problem:
 https://www.codewars.com/kata/51b62bf6a9c58071c600001b/train/python/60c077f7b3a07c003df0a7df
 More about roman numerals - http://en.wikipedia.org/wiki/Roman_numerals
