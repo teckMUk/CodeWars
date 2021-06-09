@@ -1,3 +1,7 @@
+import sys
+
+
+
 def solution(n):
     # TODO convert int to roman string
     roman_dict = {1:"I",5:"V",10:"X",50:"L",100:"C",500:"D",1000:"M"}
@@ -39,3 +43,13 @@ def findsymbolkey(x,value):
             return (prev,num)
         prev = num
     return (prev,prev)
+
+
+def main(args=None):
+    if args is None:
+        args = int(sys.argv[1])
+    print("Your Roman Numeric is: ",solution(args))   
+    
+
+if __name__ == "__main__":
+    main()
