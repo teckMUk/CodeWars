@@ -44,7 +44,7 @@ def findsymbolkey(x,value):
         prev = num
     return (prev,prev)
 
-
+#takes argument from cmd
 def main(args=None):
     if args is None:
         args = int(sys.argv[1])
