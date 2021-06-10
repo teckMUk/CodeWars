@@ -40,3 +40,5 @@ To run
 python3 <filename.py> <[list]> <target_number>
 Your Index is:  [0, 1]
 ```
+Refernce to problem:
+https://leetcode.com/problems/two-sum/
