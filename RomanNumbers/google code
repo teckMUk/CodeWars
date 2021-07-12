@@ -1,0 +1,6 @@
+n = input()
+for i in range(1,n+1):
+    top_row = input().split()
+    middle_row = input().split()
+    bottow_row = input().split()
+    print(top_row,middle_row,bottow_row)
