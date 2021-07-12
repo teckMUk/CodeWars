@@ -49,7 +49,6 @@ def caesarCipher(s, k):
     return new_s 
 
 if __name__ == '__main__':
-    n = int(input().strip())
 
     s = input()
 
